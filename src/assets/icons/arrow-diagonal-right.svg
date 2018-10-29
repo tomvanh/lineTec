@@ -1,0 +1,11 @@
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HUB_Onepager" transform="translate(-1119.000000, -1848.000000)" stroke="#025AFF">
+            <g id="Pijlers" transform="translate(150.000000, 1840.000000)">
+                <g id="samen" transform="translate(840.000000, 8.000000)">
+                    <path d="M157.451564,32.0866324 L157.301765,32.2364311 L135.620952,10.5556177 L135.580802,26.9768264 L130,26.9366767 L130.080299,1.08029931 L155.936677,1 L155.936677,6.62095161 L139.555618,6.62095161 L142.974693,10.0400273 L143.124492,9.89022851 L164.805306,31.5710419 L164.845455,15.1498332 L170.426257,15.1899829 L170.345958,41.0463603 L144.48958,41.1266596 L144.48958,35.505708 L160.870639,35.505708 L157.451564,32.0866324 Z" id="vorm_samen" transform="translate(150.213129, 21.063330) rotate(-90.000000) translate(-150.213129, -21.063330) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
