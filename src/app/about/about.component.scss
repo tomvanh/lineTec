@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+.about {
+  background-color: #F8F8F8;
+  padding: 50px;
+}
+
+.about-subtitle {
+  font-size: 8px;
+  color: $main-blue;
+  margin-bottom: 0;
+}
+.about-info {
+  font-size: 20px;
+}
+
+.about-cards {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}

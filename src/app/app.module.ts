@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { WINDOW_PROVIDERS } from './window.service';
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WINDOW_PROVIDERS } from './window.service';
     ConceptComponent,
     AboutComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

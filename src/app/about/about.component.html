@@ -1,12 +1,15 @@
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container-fluid h-100 about">
+  <div class="row h-100 align-items-begin">
+    <div class="col-md-5 col-sm-12 about-info">
+      <p class="about-subtitle">{{ subtitle | uppercase }}</p>
+      <p class="about-info">{{ info }}</p>
+    </div>
+    <div class="col-md-7 col-sm-12 about-cards">
+      <div class="row h-100">
+        <div *ngFor="let card of cards" class="col-md-4 col-sm-12">
+          <app-card [image]="card.image" [description]="card.description"></app-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
