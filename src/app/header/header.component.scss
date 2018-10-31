@@ -10,7 +10,7 @@
 }
 
 .navbar-default {
-  padding: 80px;
+  padding: 70px;
 
   .navbar-brand {
     margin-top: 10px;
@@ -19,7 +19,8 @@
   .navbar-nav {
     >a {
       color: $main-blue;
-      margin: 15px 25px 5px 25px;
+      margin: 15px 5px 5px 20px;
+      font-size: 14px;
     }
 
     >a:hover,
@@ -46,7 +47,7 @@
   box-shadow: 0 0 4px grey;
 
   &.navbar-default {
-    padding: 20px 80px;
+    padding: 20px 70px;
   }
 
   .navbar-brand {
