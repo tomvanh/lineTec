@@ -1,14 +1,29 @@
 @import '../../variables.scss';
 
-.fa-heart {
-  color: hotpink;
-}
-
 .footer {
   background-color: #261213;
-  padding: 40px;
+  padding: 50px;
 }
 
 .footer-info {
   color: #fff;
+  font-size: 10px;
+  color: #fff;
+  text-align: right;
+}
+
+.footer-info-text {
+  margin-bottom: 0;
+}
+
+.footer-column {
+  height: 100%;
+  text-align: left;
+  width: fit-content;
+  float: right;
+  padding-top: 15px;
+}
+
+.footer-column1 {
+  padding-right: 30px;
 }

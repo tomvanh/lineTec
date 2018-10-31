@@ -1,27 +1,5 @@
 @import '../../variables.scss';
 
-// .navbar {
-//   padding: 50px;
-// }
-
-// @media (min-width: 768px) {
-//   .navbar-expand-md .navbar-nav .nav-link {
-//     padding-right: 2rem;
-//     padding-left: 2rem;
-//   }
-
-//   .nav-link {
-//     color: $main-blue;
-//     font-weight: 500;
-//     padding: 0 50px;
-//     text-decoration: none;
-
-//     :hover {
-//       color: #afafd6;
-//     }
-//   }
-// }
-
 .navbar {
   height: 80px;
   background-color: transparent;
@@ -32,106 +10,52 @@
 }
 
 .navbar-default {
+  padding: 80px;
 
   .navbar-brand {
     margin-top: 10px;
   }
 
   .navbar-nav {
-
-    >li {
-
-      >a {
-        color: $main-blue;
-        margin: 10px 5px 5px 5px;
-      }
-
-      >a:hover,
-      >a:active,
-      >a:focus {
-        color: $hover-main-blue;
-        border: 1px solid $hover-main-blue;
-      }
-
-      >a:visited {
-        color: $hover-main-blue;
-        text-decoration: none;
-      }
-
+    >a {
+      color: $main-blue;
+      margin: 15px 25px 5px 25px;
     }
 
-    //end li
+    >a:hover,
+    >a:active {
+      color: $hover-main-blue;
+      transition: color 1s ease 0s;
+    }
 
     >.active {
-
       >a,
-      >a:hover,
-      >a:focus {
+      >a:hover {
+        transition: color 1s ease 0s;
         background-color: transparent;
         color: $hover-main-blue;
       }
-
-    }
-
-  }
-
-  //end .navbar-nav
-
-  //Collapsed styles
-  .navbar-toggle {
-    border-color: $hover-main-blue;
-
-    &:hover,
-    &:focus {
-      background-color: $dark-blue;
-    }
-
-
-
-    .icon-bar {
-      color: $hover-main-blue;
-      background-color: $hover-main-blue;
-
     }
   }
-
-  .navbar-collapse.collapse.in ul {
-    background-color: $dark-blue;
-  }
-
 }
 
-//end .navbar-default
-
-
-
 /* Solid class attached on scroll past first section */
-
 .navbar.solid {
   background-color: #fff;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 
+  &.navbar-default {
+    padding: 20px 80px;
+  }
+
   .navbar-brand {
-    color: $hover-main-blue;
     transition: color 1s ease 0s;
   }
 
   .navbar-nav {
-
-    >li {
-
-      >a {
-        color: $hover-main-blue;
-        transition: color 1s ease 0s;
-      }
-
+    >a {
+      transition: color 1s ease 0s;
     }
-
-    //end li
-
   }
-
-  //end .navbar-nav
-
 }
