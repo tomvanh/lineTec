@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Simplest deployment possible
+
+For the simplest deployment, create a production build and copy the output directory to a web server.
+
+Start with the production build:
+`ng build --prod`
+
+Copy everything within the output folder (dist/ by default) to a folder on the server.
+
+Configure the server to redirect requests for missing files to index.html.
