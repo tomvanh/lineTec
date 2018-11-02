@@ -20,6 +20,20 @@
     }
   }
 
+  @media only screen and (max-width: 575px) {
+    .navbar-collapse {
+      &.show {
+        background-color: #fff;
+
+        .navbar-nav {
+          >a {
+            margin: 0 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+
   .navbar-nav {
     >a {
       color: $main-blue;
