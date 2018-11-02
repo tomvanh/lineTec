@@ -3,4 +3,11 @@
 @import '../node_modules/bootstrap/scss/bootstrap-reboot.scss';
 @import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
 $fa-font-path: "~font-awesome/fonts";
- @import '~font-awesome/scss/font-awesome';
+@import '~font-awesome/scss/font-awesome';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  // font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
+}
