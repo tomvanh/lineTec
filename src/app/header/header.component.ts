@@ -9,6 +9,7 @@ import { WINDOW } from '../window.service';
 })
 export class HeaderComponent implements OnInit {
   isSolid: Boolean = false;
+  isCollapsed: Boolean = true;
 
   constructor(
     @Inject(DOCUMENT) private document: Document,

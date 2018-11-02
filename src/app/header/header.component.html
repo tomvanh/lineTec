@@ -23,14 +23,14 @@
       </g>
     </svg>
   </a>
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" [class.collapsed]="isCollapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+  <div class="navbar-collapse w-100 order-3 dual-collapse2" id="navbarNav" [class.collapse]="isCollapsed" [class.show]="!isCollapsed">
     <div class="navbar-nav ml-auto">
-        <a [routerLink]="" fragment="concept" class="nav-item nav-link">concept</a>
-        <a [routerLink]="" fragment="about" class="nav-item nav-link">about</a>
-        <a [routerLink]="" fragment="contact" class="nav-item nav-link">contact</a>
+        <a [routerLink]="" fragment="concept" class="nav-item nav-link" (click)="isCollapsed = !isCollapsed">concept</a>
+        <a [routerLink]="" fragment="about" class="nav-item nav-link" (click)="isCollapsed = !isCollapsed">about</a>
+        <a [routerLink]="" fragment="contact" class="nav-item nav-link" (click)="isCollapsed = !isCollapsed">contact</a>
     </div>
   </div>
 </nav>

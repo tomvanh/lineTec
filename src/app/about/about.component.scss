@@ -5,6 +5,13 @@
   padding: 50px;
 }
 
+.anchor-point {
+  visibility: hidden;
+  position: relative;
+  top: -130px;
+  height: 0;
+}
+
 .about-subtitle {
   font-size: 8px;
   color: $main-blue;
