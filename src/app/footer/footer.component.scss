@@ -27,3 +27,13 @@
 .footer-column1 {
   padding-right: 30px;
 }
+
+@media only screen and (max-width: 767px) {
+  .footer-column {
+    height: 100%;
+    text-align: left;
+    width: fit-content;
+    float: none;
+    padding-top: 15px;
+  }
+}

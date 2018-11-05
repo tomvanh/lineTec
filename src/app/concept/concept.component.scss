@@ -91,3 +91,30 @@
 .concept-info-sub-title {
   font-size: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+  .concept-title {
+    margin: 30px 0px;
+  }
+
+  .concept-qoute {
+    margin: 30px 0px;
+  }
+
+  .concept-info-3column-item {
+    margin: 30px 0px;
+  }
+
+  .concept-image-1 {
+    height: 300px;
+  }
+
+  .concept-image-2 {
+    height: 300px;
+  }
+
+  .icon-bottom-right {
+    right: 30px;
+    bottom: 30px;
+  }
+}
