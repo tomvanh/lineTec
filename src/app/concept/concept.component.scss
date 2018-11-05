@@ -25,6 +25,10 @@
   }
 }
 
+.concept-info-title {
+  max-width: 300px;
+}
+
 .icon-bottom-right {
   position: absolute;
   right: 66px;
@@ -112,7 +116,9 @@
   .concept-image-2 {
     height: 300px;
   }
+}
 
+@media only screen and (max-width: 820px) {
   .icon-bottom-right {
     right: 30px;
     bottom: 30px;
