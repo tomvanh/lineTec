@@ -13,10 +13,11 @@ export class MessageService {
 
   constructor(private http: HttpClient) { }
 
-  send(message: Message): Observable<Message> {
-    return this.http.post(`${this.baseUrl}/send.php`, { data: message }).pipe(
-      catchError(err => this.handleError(err))
-    );
+  send(message: Message) {
+    return this.http.post(`${this.baseUrl}/send.php`, { data: message });
+    // return this.http.post(`${this.baseUrl}/send.php`, { data: message }).pipe(
+    //   catchError(err => this.handleError(err))
+    // );
   }
 
   private handleError(error: HttpErrorResponse) {

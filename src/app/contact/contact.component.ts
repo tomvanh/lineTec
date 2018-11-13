@@ -53,7 +53,13 @@ export class ContactComponent implements OnInit {
     this.service.send(this.contactForm.value)
       .subscribe(
         data => {
-          this.contactForm.reset();
+          if (data['success']) {
+            this.contactForm.reset();
+            this.submitted = false;
+            alert('Wij reageren zo spoedig mogelijk.');
+          } else {
+            alert('Er is iets fout gelopen, probeer ons later nog eens te bereiken.');
+          }
         }
       );
   }
