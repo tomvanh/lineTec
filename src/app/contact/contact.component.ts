@@ -8,6 +8,7 @@ import {
   FormBuilder,
   Validators
 } from '@angular/forms';
+import { MessageService } from '../services/message.service';
 
 @Component({
   selector: 'app-contact',
@@ -23,7 +24,7 @@ export class ContactComponent implements OnInit {
     message: new FormControl(),
   });
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private service: MessageService) {
     this.createForm();
   }
 
@@ -49,6 +50,11 @@ export class ContactComponent implements OnInit {
       return;
     }
 
-    alert('SEND FORM! \n\n' + JSON.stringify(this.contactForm.value));
+    this.service.send(this.contactForm.value)
+      .subscribe(
+        data => {
+          this.contactForm.reset();
+        }
+      );
   }
 }
