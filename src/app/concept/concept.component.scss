@@ -3,6 +3,8 @@
 .container {
   background-color: white;
   text-align: left;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .anchor-point {
@@ -26,15 +28,17 @@
 }
 
 .concept-info-title {
-  max-width: 300px;
+  max-width: 290px;
+  line-height: 1.3;
+  margin-bottom: 0;
 }
 
 .icon-bottom-right {
   position: absolute;
-  right: 66px;
+  right: 65px;
   width: 20px;
   height: 20px;
-  bottom: 66px;
+  bottom: 65px;
 }
 
 .concept-qoute {
@@ -44,9 +48,10 @@
 
   .qoute {
     font-size: 30px;
+    line-height: 1.3;
   }
   .qoute-writer {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
@@ -56,9 +61,9 @@
 
 .concept-info {
   color: white;
-  font-size: 26px;
+  font-size: 24px;
   height: 100%;
-  padding: 50px;
+  padding: 65px;
   vertical-align: bottom;
 }
 
@@ -66,13 +71,13 @@
   background-size:cover;
   background-image:url('../../assets/images/79de317c66f494122d4a3451364cae42348fa752.png');
   background-position:50% 55%;
-  height: 430px;
+  height: 330px;
 }
 
 .concept-image-2 {
   background-size:cover;
   background-image:url('../../assets/images/people.png');
-  height: 430px;
+  height: 330px;
 }
 
 .concept-info-3column-item {
@@ -92,8 +97,16 @@
   font-size: 10px;
 }
 
-.concept-info-sub-title {
-  font-size: 8px;
+.concept-info2-sub-title {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.concept-info2-title {
+  font-size: 24px;
+  margin-bottom: 0;
+  max-width: 290px;
+  line-height: 1.3;
 }
 
 @media only screen and (max-width: 767px) {

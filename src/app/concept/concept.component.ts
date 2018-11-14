@@ -15,7 +15,7 @@ export class ConceptComponent implements OnInit {
   Mauris ornare posuere neque id elementum. Ut eget cursus neque. Suspendisse porttitor mattis enim eu tempus.`;
   qoute: String = '"Eindelijk geen file onderweg naar kantoor"';
   qouteWriter: String = '- E. Peeters';
-  infoOne: String = 'Flexibele ruimte, Prachtig gerenoveerd';
+  infoOne: String = 'Flexibele ruimtes, Prachtig gerenoveerd';
   infoTwo: String = 'Lorem ipsum dolor sit amet';
   infoTwoSub: String = 'Hub Network';
   infoPoints = [
