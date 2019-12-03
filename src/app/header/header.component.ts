@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   isCollapsed: Boolean = true;
 
   constructor(
+    // tslint:disable-next-line: deprecation
     @Inject(DOCUMENT) private document: Document,
     @Inject(WINDOW) private window: Window
   ) { }
@@ -23,7 +24,7 @@ export class HeaderComponent implements OnInit {
     onWindowScroll() {
       const scrollTop = this.document.documentElement.scrollTop;
       // checks if window is scrolled more than 200px, adds/removes solid class
-      if (scrollTop > 100) {
+      if (scrollTop > 55) {
         this.isSolid = true;
       } else {
         this.isSolid = false;

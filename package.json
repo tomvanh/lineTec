@@ -1,5 +1,5 @@
 {
-  "name": "the-hub",
+  "name": "linetec",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "module": "^1.2.5",
+    "node-sass": "^4.13.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },

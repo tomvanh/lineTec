@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   info = {
-    street: 'Vrijheidstraat',
-    number: '30',
-    postal: '9140',
-    city: 'Temse',
-    email: 'info@hubbusinesscenter.be',
-    telephone: '+32485558588'
+    street: 'Eikenlaan',
+    number: '10',
+    postal: '9111',
+    city: 'Belsele',
+    email: 'info@linetec.be',
+    telephone: '+32476225818'
   };
 
   constructor() { }

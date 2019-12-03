@@ -1,5 +1,41 @@
 @import '../../variables.scss';
 
+.main-qoute {
+  color: $main-blue;
+  text-align: center;
+}
+
+.image {
+  background-color: $main-blue;
+  background: url('../../assets/images/qoute-background.jpg') no-repeat center center;
+  background-size: cover;
+  height: 170px;
+  margin-top: -20px;
+  background-position:50% 44%;
+  opacity: 0.5;
+
+  p {
+    text-align: center;
+    padding: 20px 60px;
+  }
+}
+
+.heading {
+  font-size: 26px;
+  color: $main-blue;
+  text-align: center;
+  padding-top: 180px;
+  font-weight: 300;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+}
+
+@import '../../variables.scss';
+
 .container {
   background-color: white;
   text-align: left;
@@ -14,20 +50,20 @@
   height: 0;
 }
 
-.concept-title {
+.diensten-title {
   padding: 0 50px;
   margin: 75px 0px;
 
-  .concept-title-title {
+  .diensten-title-title {
     font-size: 26px;
     padding-bottom: 20px;
   }
-  .concept-title-text {
+  .diensten-title-text {
     font-size: 10px;
   }
 }
 
-.concept-info-title {
+.diensten-info-title {
   max-width: 290px;
   line-height: 1.3;
   margin-bottom: 0;
@@ -41,7 +77,7 @@
   bottom: 65px;
 }
 
-.concept-qoute {
+.diensten-qoute {
   padding: 0 50px;
   margin: 75px 0px;
   color: $main-blue;
@@ -55,11 +91,11 @@
   }
 }
 
-.concept-info-background {
+.diensten-info-background {
   background-color: $main-blue;
 }
 
-.concept-info {
+.diensten-info {
   color: white;
   font-size: 24px;
   height: 100%;
@@ -67,42 +103,42 @@
   vertical-align: bottom;
 }
 
-.concept-image-1 {
+.diensten-image-1 {
   background-size:cover;
   background-image:url('../../assets/images/79de317c66f494122d4a3451364cae42348fa752.png');
   background-position:50% 55%;
   height: 330px;
 }
 
-.concept-image-2 {
+.diensten-image-2 {
   background-size:cover;
   background-image:url('../../assets/images/people.png');
   height: 330px;
 }
 
-.concept-info-3column-item {
+.diensten-info-3column-item {
   padding: 0 50px;
   margin: 75px 0px;
   text-align: center;
 }
-.concept-info-3column-item__icon {
+.diensten-info-3column-item__icon {
   color: $main-blue;
   padding: 0 15px;
 }
-.concept-info-3column-item__title {
+.diensten-info-3column-item__title {
   color: $main-blue;
   font-size: 14px;
 }
-.concept-info-3column-item__info {
+.diensten-info-3column-item__info {
   font-size: 10px;
 }
 
-.concept-info2-sub-title {
+.diensten-info2-sub-title {
   font-size: 10px;
   margin-bottom: 0;
 }
 
-.concept-info2-title {
+.diensten-info2-title {
   font-size: 24px;
   margin-bottom: 0;
   max-width: 290px;
@@ -110,23 +146,23 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .concept-title {
+  .diensten-title {
     margin: 30px 0px;
   }
 
-  .concept-qoute {
+  .diensten-qoute {
     margin: 30px 0px;
   }
 
-  .concept-info-3column-item {
+  .diensten-info-3column-item {
     margin: 30px 0px;
   }
 
-  .concept-image-1 {
+  .diensten-image-1 {
     height: 300px;
   }
 
-  .concept-image-2 {
+  .diensten-image-2 {
     height: 300px;
   }
 }

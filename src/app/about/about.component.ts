@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  subtitle: String = 'Kantoren';
-  info: String = 'Ontdek onze 5 Hubs en hun bewoners';
+  subtitle: String = 'Projecten';
+  info: String = 'Ontdek onze projecten in detail.';
   cards = [
     {
       image: 'alphaIT.png',
@@ -23,7 +23,7 @@ export class AboutComponent implements OnInit {
       description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium'
     }, {
       image: null,
-      description: 'Uw bedrijf misschien?'
+      description: 'Uw project misschien?'
     }
   ];
 

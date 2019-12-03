@@ -1,0 +1,40 @@
+<div class="container h-100">
+  <div id="diensten" class="anchor-point"></div>
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-md-6 col-sm-12 diensten-title">
+      <h1 class="diensten-title-title">{{ title }}</h1>
+      <p class="diensten-title-text">{{ text }}</p>
+    </div>
+    <div class="col-md-6 col-sm-12 diensten-qoute">
+      <p class="qoute">{{ qoute }}</p>
+      <p class="qoute-writer">{{ qouteWriter | uppercase }}</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid h-100 diensten-info-background">
+  <div class="row h-100 align-items-end">
+    <div class="col-md-6 col-sm-12 diensten-info">
+      <p class="diensten-info-title">{{ infoOne }}</p>
+      <img class="icon-bottom-right" src="assets/icons/arrow-right-bottom.svg" height="16" width="16" />
+    </div>
+    <div class="col-md-6 col-sm-12 diensten-image-1"></div>
+  </div>
+</div>
+<div class="container h-100 diensten-info-3column">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div *ngFor="let item of infoPoints" class="col-md-4 col-sm-12 diensten-info-3column-item">
+      <img class="diensten-info-3column-item__icon" src="{{'assets/icons/'+item.icon+'.svg'}}" height="64" width="64" />
+      <p class="diensten-info-3column-item__title">{{ item.title }}</p>
+      <p class="diensten-info-3column-item__info">{{ item.info }}</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid h-100 diensten-info-background">
+  <div class="row h-100 align-items-end">
+    <div class="col-md-6 col-sm-12 diensten-image-2"></div>
+    <div class="col-md-6 col-sm-12 diensten-info">
+      <p class="diensten-info2-sub-title">{{ infoTwoSub | uppercase }}</p>
+      <p class="diensten-info2-title">{{ infoTwo }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="image"></div>
+<div class="container h-100 diensten-info-3column">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div *ngFor="let item of infoPoints" class="col-md-4 col-sm-12 diensten-info-3column-item">
+      <img class="diensten-info-3column-item__icon" src="{{'assets/icons/'+item.icon+'.svg'}}" height="64" width="64" />
+      <p class="diensten-info-3column-item__title">{{ item.title }}</p>
+      <p class="diensten-info-3column-item__info">{{ item.info }}</p>
+    </div>
+  </div>
+</div>

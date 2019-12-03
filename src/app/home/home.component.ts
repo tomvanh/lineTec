@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  qoute = `Zorgeloos ondernemen in een historische setting,
-  filevrij en centraal gelegen.`;
+  qoute = `Zorgeloos jouw projet,
+  via onze lijnen.`;
 
   constructor() {
 
